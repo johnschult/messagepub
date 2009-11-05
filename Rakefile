@@ -3,7 +3,7 @@ require File.dirname(__FILE__) + '/lib/messagepub'
 
 # Generate all the Rake tasks
 # Run 'rake -T' to see list of generated tasks (from gem root directory)
-$hoe = Hoe.new('messagepub', Messagepub::VERSION) do |p|
+$hoe = Hoe.new('messagepub', MessagePub::VERSION) do |p|
   p.developer('Luc Castera', 'luc.castera@gmail.com')
   p.changes              = p.paragraphs_of("History.txt", 0..1).join("\n\n")
   p.post_install_message = 'PostInstall.txt'
